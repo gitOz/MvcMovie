@@ -32,6 +32,8 @@ namespace MvcMovie.Models
         [RegularExpression( @"^[A-Z]+[a-zA-Z''-'\s]*$" )]
         [StringLength( 5 )]
         public string Rating { get; set; }//added part in part 9
+
+        public string Reviews { get; set; }//added another property
     }
 
     public class MovieDBContext : DbContext

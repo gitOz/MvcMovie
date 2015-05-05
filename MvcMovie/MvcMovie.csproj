@@ -174,6 +174,10 @@
     <Compile Include="Migrations\201505041915275_Rating.Designer.cs">
       <DependentUpon>201505041915275_Rating.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201505051744418_DataAnnotations.cs" />
+    <Compile Include="Migrations\201505051744418_DataAnnotations.Designer.cs">
+      <DependentUpon>201505051744418_DataAnnotations.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -273,6 +277,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201505041915275_Rating.resx">
       <DependentUpon>201505041915275_Rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505051744418_DataAnnotations.resx">
+      <DependentUpon>201505051744418_DataAnnotations.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

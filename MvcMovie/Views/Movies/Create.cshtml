@@ -6,6 +6,12 @@
 
 <h2>Create</h2>
 
+<!--
+Notice how the code uses an Html.EditorFor helper to output
+the <input> element for each Movie property. Next to this 
+helper is a call to the Html.ValidationMessageFor helper method.  These two helper methods work with the model object that's passed by the  controller to the view (in this case, a Movie object). They  automatically look for validation attributes specified on the model and display  error messages as appropriate.
+
+-->
 
 @using (Html.BeginForm()) 
 {
